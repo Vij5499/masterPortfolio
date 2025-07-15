@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selenium Test Framework - Vijeth Patil</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="bg-slate-900 text-slate-50 font-sans antialiased">
+    <!-- Header -->
+    <header class="bg-slate-800/90 backdrop-blur-md fixed top-0 left-0 right-0 z-50 border-b border-slate-700/50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-3 group">
+                <div class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-emerald-500 rounded-full flex items-center justify-center font-bold text-sm text-white font-serif shadow-lg">
+                    <span class="group-hover:scale-110 transition-transform duration-300">VP</span>
+                </div>
+                <span class="text-lg font-bold font-serif text-slate-50 group-hover:text-indigo-400 transition-colors duration-300">VIJETH PATIL</span>
+            </a>
+            
+            <a href="index.html#projects" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg text-sm transition-all duration-300">
+                ← Back to Portfolio
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-20">
+        <!-- Hero Section -->
+        <section class="py-16 bg-gradient-to-br from-indigo-900 via-slate-900 to-emerald-900">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <div class="inline-flex items-center bg-green-500/10 text-green-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        Enterprise Test Framework
+                    </div>
+                    
+                    <h1 class="font-serif text-4xl md:text-5xl font-bold mb-6">
+                        <span class="bg-gradient-to-r from-green-400 to-indigo-400 bg-clip-text text-transparent">Selenium Test Framework</span>
+                    </h1>
+                    
+                    <p class="text-xl text-slate-300 mb-8 leading-relaxed">
+                        A comprehensive data-driven UI and API test framework using Java, Selenium, TestNG, and RestAssured, fully integrated into CI/CD pipelines for enterprise-scale applications.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4 justify-center">
+                        <span class="bg-slate-700/50 text-slate-300 px-4 py-2 rounded-lg text-sm">Java</span>
+                        <span class="bg-slate-700/50 text-slate-300 px-4 py-2 rounded-lg text-sm">Selenium</span>
+                        <span class="bg-slate-700/50 text-slate-300 px-4 py-2 rounded-lg text-sm">TestNG</span>
+                        <span class="bg-slate-700/50 text-slate-300 px-4 py-2 rounded-lg text-sm">RestAssured</span>
+                        <span class="bg-slate-700/50 text-slate-300 px-4 py-2 rounded-lg text-sm">Jenkins</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Framework Architecture -->
+        <section class="py-16 bg-slate-800">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="font-serif text-3xl font-bold text-center mb-12">Framework Architecture</h2>
+                    
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-slate-700/50 p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                                </svg>
+                            </div>
+                            <h3 class="font-serif text-xl font-bold mb-3">UI Testing Layer</h3>
+                            <p class="text-slate-400 text-sm mb-4">Selenium WebDriver with Page Object Model for maintainable UI automation</p>
+                            <ul class="text-sm text-slate-300 space-y-2">
+                                <li>• Cross-browser compatibility</li>
+                                <li>• Page Object Model (POM)</li>
+                                <li>• Element locator strategies</li>
+                                <li>• Screenshot capture</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-slate-700/50 p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="font-serif text-xl font-bold mb-3">API Testing Layer</h3>
+                            <p class="text-slate-400 text-sm mb-4">RestAssured for comprehensive API validation and integration testing</p>
+                            <ul class="text-sm text-slate-300 space-y-2">
+                                <li>• RESTful API testing</li>
+                                <li>• JSON/XML validation</li>
+                                <li>• Authentication handling</li>
+                                <li>• Response time validation</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-slate-700/50 p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="font-serif text-xl font-bold mb-3">Data Management</h3>
+                            <p class="text-slate-400 text-sm mb-4">Data-driven testing with external data sources and test data management</p>
+                            <ul class="text-sm text-slate-300 space-y-2">
+                                <li>• Excel/CSV data providers</li>
+                                <li>• Test data factories</li>
+                                <li>• Environment configuration</li>
+                                <li>• Database connectivity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h2 class="font-serif text-3xl font-bold mb-6">Enterprise-Grade Features</h2>
+                            
+                            <div class="space-y-6">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-slate-50 mb-2">Parallel Test Execution</h3>
+                                        <p class="text-slate-400 text-sm">TestNG parallel execution capabilities reducing test suite runtime by 60%</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-slate-50 mb-2">Cross-Browser Testing</h3>
+                                        <p class="text-slate-400 text-sm">Selenium Grid integration for testing across Chrome, Firefox, Safari, and Edge</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-slate-50 mb-2">Comprehensive Reporting</h3>
+                                        <p class="text-slate-400 text-sm">ExtentReports integration with detailed test execution reports and screenshots</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-8 h-8 bg-amber-500 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-slate-50 mb-2">CI/CD Integration</h3>
+                                        <p class="text-slate-400 text-sm">Jenkins pipeline integration with automated test execution and result publishing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-slate-800 p-8 rounded-xl">
+                            <h3 class="font-serif text-xl font-bold mb-6 text-center">Performance Metrics</h3>
+                            <div class="space-y-6">
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold text-indigo-400 mb-2">60%</div>
+                                    <div class="text-slate-400 text-sm">Faster Test Execution</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold text-emerald-400 mb-2">95%</div>
+                                    <div class="text-slate-400 text-sm">Test Success Rate</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold text-purple-400 mb-2">40%</div>
+                                    <div class="text-slate-400 text-sm">API Performance Boost</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold text-amber-400 mb-2">500+</div>
+                                    <div class="text-slate-400 text-sm">Automated Test Cases</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Implementation -->
+        <section class="py-16 bg-slate-800">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="font-serif text-3xl font-bold text-center mb-12">Technical Implementation</h2>
+                    
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold mb-6">Framework Components</h3>
+                            <div class="space-y-4">
+                                <div class="bg-slate-700/50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-slate-50 mb-2">Base Framework</h4>
+                                    <p class="text-slate-400 text-sm">Java-based framework with Maven build management and TestNG test orchestration</p>
+                                </div>
+                                <div class="bg-slate-700/50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-slate-50 mb-2">Page Object Model</h4>
+                                    <p class="text-slate-400 text-sm">Maintainable page objects with element locators and page-specific methods</p>
+                                </div>
+                                <div class="bg-slate-700/50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-slate-50 mb-2">Utility Libraries</h4>
+                                    <p class="text-slate-400 text-sm">Common utilities for file handling, data manipulation, and test configuration</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold mb-6">Quality Assurance</h3>
+                            <div class="space-y-4">
+                                <div class="bg-slate-700/50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-slate-50 mb-2">Test Data Management</h4>
+                                    <p class="text-slate-400 text-sm">External data sources with environment-specific configurations and test data factories</p>
+                                </div>
+                                <div class="bg-slate-700/50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-slate-50 mb-2">Error Handling</h4>
+                                    <p class="text-slate-400 text-sm">Robust exception handling with automatic retry mechanisms and detailed logging</p>
+                                </div>
+                                <div class="bg-slate-700/50 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-slate-50 mb-2">Performance Optimization</h4>
+                                    <p class="text-slate-400 text-sm">JMeter integration for performance testing with 40% API response time improvement</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results & Impact -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="font-serif text-3xl font-bold mb-8">Results & Impact</h2>
+                    
+                    <div class="bg-gradient-to-r from-green-500/10 to-indigo-500/10 p-8 rounded-xl border border-green-500/20 mb-8">
+                        <p class="text-lg text-slate-300 leading-relaxed">
+                            The Selenium test framework became the backbone of quality assurance for enterprise applications, enabling reliable automated testing across multiple browsers and environments. The framework's integration with CI/CD pipelines ensured consistent quality gates and faster release cycles.
+                        </p>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-3 gap-8">
